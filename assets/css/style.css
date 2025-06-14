@@ -12200,6 +12200,10 @@ header.style-6 .main-menu .hotline-area .content h6 a {
     -moz-columns: 1;
     columns: 1;
     display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
   }
 }
 
@@ -12214,19 +12218,15 @@ header.style-6 .main-menu .hotline-area .content h6 a {
     justify-content: center;
   }
 
-  .quick-link-area ul li:nth-child(odd) {
+  .quick-link-area ul li {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 576px) {
   .quick-link-area ul li {
-    margin-bottom: 30px;
+    margin: 15px;
     justify-content: flex-start;
-  }
-
-  .quick-link-area ul li:last-child {
-    margin-bottom: 0;
   }
 }
 
@@ -22395,7 +22395,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 
 @media (max-width: 1399px) {
   .inner-page-banner .banner-content.style-2 h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 

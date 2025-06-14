@@ -3471,6 +3471,7 @@ header.style-1 .main-menu .topbar-right a svg {
 
 header.style-1 .main-menu .topbar-right a.primary-btn3 {
   justify-content: center;
+  color: white;
 }
 
 header.style-1 .main-menu .topbar-right a.primary-btn3 svg {

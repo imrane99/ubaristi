@@ -3471,6 +3471,7 @@ header.style-1 .main-menu .topbar-right a svg {
 
 header.style-1 .main-menu .topbar-right a.primary-btn3 {
   justify-content: center;
+  color: white;
 }
 
 header.style-1 .main-menu .topbar-right a.primary-btn3 svg {
@@ -28098,6 +28099,7 @@ button {
   border-radius: 10px;
   border: 1px solid transparent;
   transition: 0.35s;
+  height: 100%;
 }
 
 .customer-feedback-pages .feedback-card .feedback-top {
@@ -28442,5 +28444,18 @@ button {
 
 .text-gray-footer {
   color: #B3B3B3 !important;
+  text-align: justify;
+}
+
+
+.banner-img-about img {
+  width: 770px;
+  height: 317px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.text-white-footer {
+  color: #B3B3B3;
   text-align: justify;
 }

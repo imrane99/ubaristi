@@ -28453,3 +28453,8 @@ button {
   object-fit: cover;
   overflow: hidden;
 }
+
+.text-white-footer {
+  color: #B3B3B3;
+  text-align: justify;
+}

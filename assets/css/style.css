@@ -13096,13 +13096,14 @@ header.style-6 .main-menu .hotline-area .content h6 a {
      9. why Choose Section
 ========================================*/
 .why-choose-area {
-  background-image: url(../img/home1/why-choose-bg.png);
+  /* background-image: url(../img/home1/why-choose-bg.png); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .why-choose-area .choose-card {
+  height: 100%;
   background: linear-gradient(116.81deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%) padding-box, linear-gradient(-90deg, rgba(204, 244, 224, 0.1), rgba(70, 217, 147, 0.4)) border-box;
   border: 1px solid transparent;
   background-origin: padding-box, border-box;
@@ -13137,9 +13138,6 @@ header.style-6 .main-menu .hotline-area .content h6 a {
   transition: 0.35s;
 }
 
-.why-choose-area .choose-card:hover::after {
-  opacity: 1;
-}
 
 .why-choose-area .choose-card .choose-top {
   display: flex;
@@ -13152,7 +13150,7 @@ header.style-6 .main-menu .hotline-area .content h6 a {
   font-family: var(--font-montserrat);
   font-weight: 700;
   font-size: 20px;
-  text-align: justify;
+  text-align: start;
   line-height: 24px;
   color: var(--title-color);
   margin-bottom: 0;
@@ -15318,7 +15316,6 @@ footer .footer-center .contact-area {
 @media (max-width: 767px) {
   footer .footer-center .contact-area {
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
   }
 }
@@ -15921,7 +15918,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 }
 
 .slider-btn-group2 .slider-btn:hover svg {
-  fill: var(--title-color);
+  fill: white;
 }
 
 .slider-btn-group2.style-6 {
@@ -15986,11 +15983,11 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 
 .product-card2 .product-img .date {
   position: absolute;
-  left: -89px;
-  top: 50%;
-  transform: translateY(-50%) rotate(-90deg) scaleX(0);
-  transition: 0.35s;
-  opacity: 0;
+    left: -89px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg) scaleX(0);
+    transition: 0.35s;
+    opacity: 0;
 }
 
 .product-card2 .product-img .date button {
@@ -16124,7 +16121,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 }
 
 .product-card2:hover .product-content .details-btn a i {
-  color: var(--title-color);
+  color: white;
   transform: rotate(0deg);
 }
 
@@ -21995,6 +21992,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .inner-page-banner.style-2 {
   height: 150px;
@@ -28481,4 +28479,23 @@ button {
   .show-in-desctop {
     display: none;
   }
+}
+
+
+
+.inner-page-banner_about {
+  background-image: url("/assets/img/ubaristi/bg/UBARISTI_photo_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.bg_servse_home_page {
+  background-color: #3E7BBE;
+}
+
+.section-title-2_custom h2,
+.section-title-2_custom p {
+  color: white !important;
 }

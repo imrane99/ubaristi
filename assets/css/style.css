@@ -13109,10 +13109,13 @@ header.style-6 .main-menu .hotline-area .content h6 a {
   background-origin: padding-box, border-box;
   background-repeat: no-repeat;
   border-radius: 10px;
-  padding: 40px 30px;
+  padding: 20px;
   position: relative;
   z-index: 1;
   transition: 0.35s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

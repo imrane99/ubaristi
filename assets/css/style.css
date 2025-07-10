@@ -716,7 +716,7 @@ p {
   width: 150%;
   bottom: 0;
   border-radius: 2px;
-  background-color: #0A1019;
+  background-color: var(--primary-color1);
   transform: skewX(45deg) scale(0, 1);
   z-index: -1;
   transition: all 0.5s ease-out 0s;
@@ -736,7 +736,7 @@ p {
 
 .primary-btn7 {
   border-radius: 5px;
-  background-color: var(--title-color);
+  background-color: var(--primary-color1);
   font-family: var(--font-montserrat);
   font-weight: 600;
   font-size: 15px;
@@ -19233,7 +19233,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 }
 
 .home4-inner-banner-section.style-2 .section-title-2 .sell-btn-and-contact-info .primary-btn6:hover::after {
-  background-color: var(--white-color);
+  background-color: var(--primary-color1);
 }
 
 .home4-inner-banner-section.style-2 .section-title-2 .sell-btn-and-contact-info>span {
@@ -21300,10 +21300,24 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 /*=====================================
    46. Home6 Banner Section
 ========================================*/
+
+.home6-banner-area_cover__costom {
+  background-image: url('../img/ubaristi/bg/UBARISTI_photo_1.jpg');
+  background-size: cover;           /* Ensures image covers entire container */
+  background-position: center;      /* Centers the image */
+  background-repeat: no-repeat;     /* Prevents image repetition */
+  background-attachment: fixed; 
+}
 .home6-banner-area {
-  background: #FAF8FB;
+  background: #00000094;
   padding: 95px 8% 130px;
 }
+
+.cover_home4_custom .name_custom_header,
+.cover_home4_custom h1{
+  color: white !important;
+}
+
 
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home6-banner-area {

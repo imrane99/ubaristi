@@ -15162,7 +15162,7 @@ header.style-6 .main-menu .hotline-area .content h6 a {
      16. Footer Section
 ========================================*/
 footer {
-  background: var(--title-color);
+  background: var(--primary-color1);
 }
 
 footer .footer-top {
@@ -15368,7 +15368,7 @@ footer .footer-center .contact-area .hotline-area .content h6 {
 }
 
 footer .footer-center .contact-area .hotline-area .content h6 a {
-  color: var(--primary-color1);
+  color: white;
   font-size: 20px;
   font-family: var(--font-montserrat);
   font-weight: 600;
@@ -15461,7 +15461,7 @@ footer .footer-btm .copyright-area p {
 }
 
 footer .footer-btm .copyright-area p a {
-  color: var(--primary-color1);
+  color: #B3B3B3;
 }
 
 footer .footer-btm .social-area {
@@ -15496,7 +15496,7 @@ footer .footer-btm .social-area ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary-color1);
+  color: #B3B3B3;
   transition: 0.35s;
 }
 
@@ -21370,7 +21370,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 
 @media (max-width: 576px) {
   .home6-banner-area .banner-content h1 {
-    font-size: 50px;
+    font-size: 46px;
   }
 }
 
@@ -28515,4 +28515,15 @@ button {
 .section-title-2_custom h2,
 .section-title-2_custom p {
   color: white !important;
+}
+
+
+.home6-banner-area_cover__costom {
+  position: relative;
+}
+
+.hero-divider-ub {
+  position: absolute;
+  width: 100%;
+  bottom: -15px;
 }

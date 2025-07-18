@@ -28454,6 +28454,7 @@ button {
 @media (min-width: 850px) {
   .banner-img img {
     right: 40px;
+    max-height: 500px;
   }
 }
 

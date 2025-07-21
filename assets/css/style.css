@@ -15320,6 +15320,14 @@ footer .footer-center .contact-area {
   footer .footer-center .contact-area {
     flex-wrap: wrap;
     gap: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer .footer-btm .copyright-area p 
+  {
+    text-align: center;
   }
 }
 

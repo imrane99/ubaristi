@@ -20810,6 +20810,7 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
 
 .product-st-card1:hover .product-img .product-price span {
   background-color: var(--primary-color1);
+  color: white;
 }
 
 .product-st-card1:hover .product-img .slider-btn-group {

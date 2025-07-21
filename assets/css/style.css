@@ -21318,10 +21318,18 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
   background-attachment: fixed; 
 }
 .home6-banner-area {
-  /* background: #00000094; */
   background: linear-gradient(to left, #0F4585, #0f458557);
   padding: 95px 8% 130px;
 }
+
+@media screen and (max-width: 991px) {
+  .home6-banner-area {
+      background: linear-gradient(to bottom, #0f4585a1, #0f458542);
+  }
+  
+}
+
+
 
 .cover_home4_custom .name_custom_header,
 .cover_home4_custom h1{

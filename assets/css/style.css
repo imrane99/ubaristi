@@ -21318,7 +21318,8 @@ footer.style-3 .footer-btm .social-area ul li a:hover {
   background-attachment: fixed; 
 }
 .home6-banner-area {
-  background: #00000094;
+  /* background: #00000094; */
+  background: linear-gradient(to left, #0F4585, #0f458557);
   padding: 95px 8% 130px;
 }
 
